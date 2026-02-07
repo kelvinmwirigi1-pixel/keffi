@@ -1,6 +1,6 @@
 # Football Analysis Search Engine
 
-A lightweight search engine for football betting-style analysis that focuses only on:
+A lightweight football analysis search engine focused on:
 
 - Europe's **major five domestic leagues**:
   - Premier League
@@ -18,7 +18,15 @@ It returns the best match candidates for:
 1. **Over 2.5 goals** probability
 2. **Both Teams To Score (BTTS)** probability
 
-## Run
+## Run as a website
+
+```bash
+python3 app.py
+```
+
+Then open `http://127.0.0.1:5000`.
+
+## Run the CLI script
 
 ```bash
 python3 football_search_engine.py
